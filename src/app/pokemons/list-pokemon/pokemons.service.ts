@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { POKEMONS } from '../mock-pokemon';
-import { Pokemon } from '../pokemon';
+import { POKEMONS } from '../../mock-pokemon';
+import { Pokemon } from '../../pokemon';
 
   
 @Injectable()

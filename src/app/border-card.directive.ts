@@ -20,7 +20,7 @@ export class BorderCardDirective {
 
     @HostListener('mouseenter') onMouseEnter() {
         this.setBorder(this.borderColor || this.defaultColor); // utilisation du ou pour definir une valeur par defaut
-        this.setHeight(220);
+        //this.setHeight(220);
     }
 
     @HostListener('mouseleave') onMouseLeave() {
@@ -35,5 +35,6 @@ export class BorderCardDirective {
   
     private setHeight(height: number) {
         this.el.nativeElement.style.height = height + 'px';
+        
     }
 }
